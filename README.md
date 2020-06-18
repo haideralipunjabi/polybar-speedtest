@@ -31,3 +31,7 @@ interval = 90
 By default, the module will show Download Speed in bits/sec. Add `--upload` flag in `exec` to show upload speed, and `--bytes` to use bytes/sec. You can also modify the `interval` parameter (in seconds) to change the refresh delay.  
 
 *Note: The module might not be visible from the start as it takes sometime to do the speedtest*
+
+## Also See
+[KDEConnect Module for Polybar](https://github.com/HackeSta/polybar-kdeconnect)
+[qBittorrent Module for Polybar](https://github.com/HackeSta/polybar-qbittorrent)
