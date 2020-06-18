@@ -15,8 +15,8 @@ def get_formatted_speed(s,bytes=False):
         s = s / 1024
         unit = "K"
     if bytes:
-        return f"{(s/8):.2f} {unit}bytes/s"
-    return f"{s:.2f} {unit}bits/s"
+        return f"{(s/8):.2f} {unit}iB/s"
+    return f"{s:.2f} {unit}ib/s"
     
 
 
@@ -32,7 +32,7 @@ except:
 
 if args.upload:
     s.upload(pre_allocate=False)
-    print(" " + get_formatted_speed(s.results.upload,args.bytes))
+    print("▲ " + get_formatted_speed(s.results.upload,args.bytes))
 else:
     s.download()
-    print(" " + get_formatted_speed(s.results.download,args.bytes))
+    print("▼ " + get_formatted_speed(s.results.download,args.bytes))
