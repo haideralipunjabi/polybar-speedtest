@@ -7,7 +7,6 @@
 ## Dependencies
 
 * [python3](https://www.python.org)
-* Iosevka Nerd Font
 * [speedtest-cli](https://github.com/sivel/speedtest-cli/)
 
 ## Usage
